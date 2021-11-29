@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('checkout') {
             steps {
-               git 'https://github.com/ddharne-cci/todo-app.git'
+               git 'https://github.com/ddharne-cci/nodejs-todo.git'
         }
         }
         stage('docker-compose') {
